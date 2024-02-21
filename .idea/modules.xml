@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bit Manipulation/Bit Manipulation.iml" filepath="$PROJECT_DIR$/Bit Manipulation/Bit Manipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeekForGeeks/GeekForGeeks.iml" filepath="$PROJECT_DIR$/GeekForGeeks/GeekForGeeks.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LeetCodeProblemSolution.iml" filepath="$PROJECT_DIR$/.idea/LeetCodeProblemSolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maths/Maths.iml" filepath="$PROJECT_DIR$/Maths/Maths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatternProblems/PatternProblems.iml" filepath="$PROJECT_DIR$/PatternProblems/PatternProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrefixSum/PrefixSum.iml" filepath="$PROJECT_DIR$/PrefixSum/PrefixSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practise/Test.iml" filepath="$PROJECT_DIR$/Practise/Test.iml" />
     </modules>
   </component>
