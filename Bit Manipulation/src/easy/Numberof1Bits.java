@@ -5,6 +5,7 @@ public class Numberof1Bits {
     public static void main(String args[]){
         int n=00000000000000000000000000001011;
         int answer=hammingWeight(n);
+        System.out.println(answer);
     }
 
     private static int hammingWeight(int n) {
