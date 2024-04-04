@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/PrefixSum/PrefixSum.iml" filepath="$PROJECT_DIR$/PrefixSum/PrefixSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/SlidingWindow/SlidingWindow.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" filepath="$PROJECT_DIR$/StacksAndQueues/StacksAndQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practise/Test.iml" filepath="$PROJECT_DIR$/Practise/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/dailyChallenge/dailyChallenge.iml" filepath="$PROJECT_DIR$/dailyChallenge/dailyChallenge.iml" />
     </modules>
