@@ -7,8 +7,9 @@ import java.util.Queue;
 public class RottingOranges {
 
     public static void main(String args[]){
-        int grid[][]={{2,1,1},{1,1,0},{0,1,1}};
-        int ans=orangesRotting(grid);
+       // int grid[][]={{2,1,1},{1,1,0},{0,1,1}};
+        int grid[][]={{0,1,2},{0,1,2},{2,1,1}};
+        int ans=orangesRottingOld(grid);
         System.out.println(ans);
     }
 
@@ -90,22 +91,22 @@ public class RottingOranges {
                    int[] cell=queue.remove();
                    int x=cell[0];
                    int y=cell[1];
-                   if(isSafe(x+1,y) && grid[x+1][y]==1){
+                   if(isSafe(x+1,y,grid) && grid[x+1][y]==1){
                        grid[x+1][y]=2;
                        freshOranges--;
                        queue.add(new int[]{x+1,y});
                    }
-                   if(isSafe(x-1,y) && grid[x-1][y]==1){
+                   if(isSafe(x-1,y,grid) && grid[x-1][y]==1){
                        grid[x-1][y]=2;
                        freshOranges--;
                        queue.add(new int[]{x-1,y});
                    }
-                   if(isSafe(x,y-1) && grid[x][y-1]==1){
+                   if(isSafe(x,y-1,grid) && grid[x][y-1]==1){
                        grid[x][y-1]=2;
                        freshOranges--;
                        queue.add(new int[]{x,y-1});
                    }
-                   if(isSafe(x,y+1) && grid[x][y+1]==1){
+                   if(isSafe(x,y+1,grid) && grid[x][y+1]==1){
                        grid[x][y+1]=2;
                        freshOranges--;
                        queue.add(new int[]{x,y+1});
@@ -119,7 +120,11 @@ public class RottingOranges {
            return -1;
     }
 
-    public static boolean isSafe(int x,int y/*,int r,int c*/){
-        return (x>=0 && y>=0 /*&& x<r && y<c*/);
+    private static boolean isSafe(int x, int y, int[][] grid) {
+        if (x<0 || y<0 || x>=grid.length || y>=grid[0].length)
+            return false;
+        return true;
     }
+
+
 }

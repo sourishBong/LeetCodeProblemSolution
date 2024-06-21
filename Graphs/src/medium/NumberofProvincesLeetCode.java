@@ -2,7 +2,7 @@ package medium;
 
 import java.util.ArrayList;
 
-//https://leetcode.com/problems/number-of-islands/
+// https://leetcode.com/problems/number-of-provinces/description/
 public class NumberofProvincesLeetCode {
 
     public static void main(String args[]){
